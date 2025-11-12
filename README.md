@@ -11,17 +11,25 @@ POSNETEK DELOVANJA:
 
 ODGOVORI NA VPRAŠANJA:
 2)
+
 b) pin PA0
 
-c) zelena LED- PC9,
+c) zelena LED- PC9
+
 modra LED- PC8
 
 3)
-c)
-d)
-e)
-f)
+c) HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_8);
+
+d) 138,889 μ sekund torej 0,138 m sekund
+
+e) HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+
+f) HAL_Delay(500);
 
 4)
-e)
-f)
+e) Ko pritisnemo na Modro tipko se prižge zelena LED, modra LED še vedno utripa, ko še enkrat pritisnemo na modro tipko se zelena LED ugasne in modra LED še vedno neprekinjeno utripa.
+
+f) NE pritisk na modro tipko ne vpliva na utripanje modre LED. Z modro led se ne zgodi nič ker modra tipka upravlja le zeleno LED modra LED pa utripa neprekinjeno.
+
+KOMENTAR:
