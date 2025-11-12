@@ -32,4 +32,4 @@ e) Ko pritisnemo na Modro tipko se prižge zelena LED, modra LED še vedno utrip
 
 f) NE pritisk na modro tipko ne vpliva na utripanje modre LED. Z modro led se ne zgodi nič ker modra tipka upravlja le zeleno LED modra LED pa utripa neprekinjeno.
 
-KOMENTAR:
+KOMENTAR: S pritiskom na modro tipko smo upravljali le zeleno LED med tem ko je modra LED neprekinjeno konstantno utripala ker smo tako zapisali našo funkcijo. Ob pritisku na tipko pa smo lahko opazili tudi kako naš signal skače.
